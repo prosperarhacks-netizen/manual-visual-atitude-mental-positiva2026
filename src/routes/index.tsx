@@ -262,7 +262,7 @@ function Index() {
       <Section className="pt-16 md:pt-24">
         <div className="max-w-3xl mx-auto text-center fade-up">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-ink">
-            Entenda os principais conceitos do livro Atitude Mental Positiva.
+            Entenda e visualize os principais conceitos do livro Atitude Mental Positiva.
           </h1>
 
           <p className="text-ink/80 text-base md:text-lg leading-relaxed mb-8">
