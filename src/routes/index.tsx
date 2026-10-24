@@ -21,21 +21,21 @@ const planoCompletoImagem = receberImagem;
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Manual Visual de Quem Pensa Enriquece" },
+      { title: "Manual Visual da Atitude Mental Positiva" },
       {
         name: "description",
-        content: "Consulte os principais ensinamentos de Quem Pensa Enriquece de forma visual e prática.",
+        content: "Consulte os principais conceitos da Atitude Mental Positiva de forma visual e prática.",
       },
-      { property: "og:title", content: "Manual Visual de Quem Pensa Enriquece" },
+      { property: "og:title", content: "Manual Visual da Atitude Mental Positiva" },
       {
         property: "og:description",
-        content: "Um material visual e prático para compreender e consultar os principais ensinamentos de Quem Pensa Enriquece.",
+        content: "Um material visual e prático para compreender e consultar os principais conceitos da Atitude Mental Positiva.",
       },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "Manual Visual de Quem Pensa Enriquece" },
+      { name: "twitter:title", content: "Manual Visual da Atitude Mental Positiva" },
       {
         name: "twitter:description",
-        content: "Consulte os principais ensinamentos de Quem Pensa Enriquece de forma visual e prática.",
+        content: "Consulte os principais conceitos da Atitude Mental Positiva de forma visual e prática.",
       },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -262,11 +262,11 @@ function Index() {
       <Section className="pt-16 md:pt-24">
         <div className="max-w-3xl mx-auto text-center fade-up">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-ink">
-            Entenda os principais conceitos do livro Quem Pensa Enriquece.
+            Entenda os principais conceitos do livro Atitude Mental Positiva.
           </h1>
 
           <p className="text-ink/80 text-base md:text-lg leading-relaxed mb-8">
-            Tudo organizado em uma experiência simples, visual e prática para você compreender os conceitos essenciais, visualizar as conexões entre as ideias e consultar os principais ensinamentos sempre que quiser.
+            Tudo organizado em uma experiência simples, visual e prática para você compreender os conceitos, refletir sobre suas atitudes e consultar as principais ideias sempre que quiser.
           </p>
 
           <div className="max-w-xl mx-auto mb-8">
@@ -274,7 +274,7 @@ function Index() {
               src={heroImagem}
               width="1080"
               height="1080"
-              alt="Manual Visual de Quem Pensa Enriquece"
+              alt="Manual Visual da Atitude Mental Positiva"
               loading="eager"
               fetchPriority="high"
               decoding="async"
@@ -283,7 +283,7 @@ function Index() {
           </div>
 
           <p className="text-ink/80 text-base md:text-lg leading-relaxed mb-8">
-            Você encontra os principais conceitos e ensinamentos organizados em um material visual, com explicações originais, ilustrações, mapas mentais, diagramas, exemplos de aplicação e ferramentas de consulta.
+            Você encontra os principais conceitos da obra reunidos em um material organizado, com explicações diretas, exemplos cotidianos, ilustrações, diagramas, comparações visuais e ferramentas de consulta.
           </p>
 
           <div>
@@ -300,7 +300,7 @@ function Index() {
       <Section className="bg-surface">
         <div className="text-center max-w-4xl mx-auto mb-14">
           <h2 className="text-3xl md:text-5xl font-semibold">
-            O Manual Visual de Quem Pensa Enriquece possui
+            O Manual Visual da Atitude Mental Positiva possui
           </h2>
         </div>
 
@@ -309,22 +309,22 @@ function Index() {
             {
               i: "🧩",
               t: "CONTEÚDO SIMPLES E ORGANIZADO",
-              d: "Os principais ensinamentos são organizados por temas e conceitos essenciais, com explicações diretas para facilitar a compreensão e permitir que você encontre o que deseja consultar.",
+              d: "Os principais conceitos sobre pensamentos, crenças, atitudes, objetivos, persistência e desenvolvimento pessoal são apresentados em categorias, com explicações diretas para facilitar a compreensão.",
             },
             {
               i: "👀",
               t: "VISUAL E FÁCIL DE CONSULTAR",
-              d: "Ilustrações, mapas mentais, diagramas e fichas visuais ajudam você a visualizar as ideias, compreender as conexões entre os conceitos e localizar rapidamente aquilo que deseja revisar.",
+              d: "Ilustrações, diagramas, tabelas comparativas e fichas visuais ajudam você a visualizar as ideias, diferenciar conceitos e encontrar rapidamente aquilo que deseja revisar.",
             },
             {
               i: "💬",
               t: "EXPLICAÇÕES DIRETAS",
-              d: "Cada conceito é apresentado por meio de explicações originais, objetivas e exemplos de aplicação, ajudando você a compreender a ideia central sem depender apenas de longos blocos de texto.",
+              d: "Cada conceito é apresentado de maneira objetiva, com explicações e exemplos cotidianos para ajudar você a compreender a ideia principal e relacioná-la a situações do dia a dia.",
             },
             {
               i: "⭐",
               t: "CONSULTE QUANDO PRECISAR",
-              d: "Além das explicações, você encontra recursos visuais, fichas de consulta, mapas mentais e referências organizadas para revisar os principais ensinamentos sempre que quiser.",
+              d: "Além das explicações, você encontra fichas-resumo, quadros comparativos, glossário e recursos de consulta para revisar os principais conceitos sempre que quiser.",
             },
           ].map((c) => (
             <div key={c.t} className="premium-card rounded-xl p-6">
@@ -354,7 +354,7 @@ function Index() {
           <div className="relative">
             <GoldOrnament />
             <h2 className="text-2xl md:text-4xl font-semibold max-w-3xl mx-auto leading-tight mb-4">
-              Você gostaria de ter os principais ensinamentos organizados em um material visual para consultar sempre que precisasse?
+              Você gostaria de compreender os principais conceitos da Atitude Mental Positiva e ter tudo organizado em um material que pudesse consultar sempre que precisasse?
             </h2>
             <p className="text-ink/70 mb-8">Aproveite a oferta por tempo limitado.</p>
             <CTAButton onClick={scrollToOffer}>QUERO ACESSAR AGORA</CTAButton>
@@ -372,10 +372,10 @@ function Index() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
-            "Consultar os principais ensinamentos de forma simples e organizada",
-            "Visualizar conceitos importantes por meio de mapas mentais e diagramas",
-            "Compreender as relações entre objetivos, crenças, planejamento, decisão e persistência",
-            "Relacionar os conceitos a situações e objetivos pessoais",
+            "Compreender os principais conceitos da Atitude Mental Positiva de forma simples e organizada",
+            "Explorar a relação entre pensamentos, crenças e atitudes por meio de explicações acessíveis",
+            "Refletir sobre objetivos, iniciativa, persistência e formas de lidar com obstáculos",
+            "Relacionar os conceitos a situações do cotidiano",
             "Encontrar rapidamente uma ideia quando quiser revisá-la",
           ].map((t) => (
             <article key={t} className="premium-card rounded-xl p-6">
@@ -400,7 +400,7 @@ function Index() {
               src={receberImagem}
               width="1080"
               height="1080"
-              alt="Manual Visual de Quem Pensa Enriquece com quatro bônus exclusivos"
+              alt="Manual Visual da Atitude Mental Positiva com quatro bônus exclusivos"
               loading="lazy"
               fetchPriority="low"
               decoding="async"
@@ -409,30 +409,30 @@ function Index() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-5 text-gradient-gold">Manual Visual de Quem Pensa Enriquece</h3>
+            <h3 className="text-2xl font-semibold mb-5 text-gradient-gold">Manual Visual da Atitude Mental Positiva</h3>
 
             <p className="text-ink mb-3">Você recebe:</p>
 
             <ul className="space-y-3">
               {[
-                "Conceitos essenciais organizados por temas",
-                "Definição de objetivos e desejo definido",
-                "Fé, crenças e autossugestão",
-                "Conhecimento especializado",
-                "Imaginação e geração de possibilidades",
-                "Planejamento organizado",
-                "Decisão e consistência",
-                "Persistência diante dos obstáculos",
-                "Cooperação e aliança com outras pessoas",
-                "Subconsciente e padrões mentais, conforme a abordagem apresentada no material",
-                "Relações entre os principais conceitos",
-                "Explicações originais, claras e diretas",
-                "Ilustrações e diagramas explicativos",
-                "Mapas mentais para visualizar conexões",
-                "Exemplos de aplicação prática",
-                "Fichas visuais de consulta",
-                "Índice visual para facilitar a navegação",
-                "Recursos para reflexão e aplicação",
+                "Fundamentos da Atitude Mental Positiva",
+                "Pensamentos, crenças e atitudes",
+                "Objetivos, propósito e direção",
+                "Iniciativa, persistência e ação",
+                "Obstáculos, fracassos e aprendizados",
+                "Relacionamentos e ambiente",
+                "Aplicações dos conceitos no dia a dia",
+                "Exemplos cotidianos",
+                "Explicações claras e diretas",
+                "Ilustrações e diagramas",
+                "Exemplos cotidianos",
+                "Tabelas comparativas",
+                "Fichas-resumo",
+                "Glossário de consulta",
+                "Atlas visual de consulta",
+                "Referências rápidas",
+                "Material organizado por categorias",
+                "Recursos visuais para consultar os principais conceitos",
                 "Material organizado para consultas rápidas",
                 "Acesso imediato",
               ].map((b) => (
@@ -457,10 +457,10 @@ function Index() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { img: bonus1Imagem, t: "FICHAS VISUAIS DOS CONCEITOS ESSENCIAIS", d: "Um material de consulta com fichas individuais dos principais conceitos. Cada ficha apresenta uma explicação visual original e uma aplicação prática para ajudar você a revisar ideias específicas de maneira organizada." },
-            { img: bonus2Imagem, t: "MAPA VISUAL DOS PRINCIPAIS ENSINAMENTOS", d: "Um mapa mental panorâmico que conecta os principais temas e conceitos do material. Visualize as relações entre as ideias e tenha uma visão geral para facilitar suas revisões." },
-            { img: bonus3Imagem, t: "DIÁRIO DE APLICAÇÃO DOS ENSINAMENTOS", d: "Um material de apoio para registrar objetivos, reflexões, ações planejadas e aprendizados. Tenha um espaço organizado para relacionar os conceitos aos seus objetivos e acompanhar suas ações ao longo do tempo." },
-            { img: bonus4Imagem, t: "GUIA DE CONSULTA RÁPIDA DO MATERIAL", d: "Um guia organizado para ajudar você a navegar pelo manual, localizar conceitos e escolher o recurso visual mais adequado para cada consulta, sem precisar procurar informação por informação." },
+            { img: bonus1Imagem, t: "ATLAS VISUAL DOS 20 CONCEITOS DA ATITUDE MENTAL POSITIVA", d: "Um material de consulta visual com fichas de 20 conceitos relacionados à Atitude Mental Positiva. Cada ficha apresenta uma explicação objetiva e um exemplo prático para ajudar você a revisar as ideias de maneira organizada." },
+            { img: bonus2Imagem, t: "COMPARATIVO VISUAL DE ATITUDES", d: "Uma coleção de quadros comparativos para visualizar diferentes formas de pensar, reagir e agir diante de situações cotidianas. Consulte as comparações e os exemplos para compreender melhor as diferenças entre as atitudes apresentadas." },
+            { img: bonus3Imagem, t: "DIÁRIO DE ATITUDE E REFLEXÃO PESSOAL", d: "Um material para registrar pensamentos, refletir sobre atitudes, observar situações do cotidiano e anotar aprendizados. Tenha um espaço organizado para acompanhar suas reflexões e identificar pontos que deseja desenvolver." },
+            { img: bonus4Imagem, t: "GUIA DE CONSULTA RÁPIDA EM 5 MINUTOS", d: "Um guia visual organizado por assunto para ajudar você a localizar e revisar os principais conceitos do manual com praticidade, sem precisar procurar página por página." },
           ].map((b, i) => (
             <div key={b.t} className="premium-card rounded-xl overflow-hidden flex flex-col">
               <div className="bg-gradient-to-br from-surface-soft to-canvas">
@@ -511,7 +511,7 @@ function Index() {
             <ul className="space-y-3 mb-6">
               <li className="flex items-start gap-3 text-ink/85 text-sm">
                 <CheckIcon />
-                <span>Manual Visual de Quem Pensa Enriquece</span>
+                <span>Manual Visual da Atitude Mental Positiva</span>
               </li>
             </ul>
 
@@ -551,18 +551,18 @@ function Index() {
 
             <ul className="space-y-3 mb-6">
               {[
-                "Manual Visual de Quem Pensa Enriquece",
-                "Conceitos essenciais organizados por temas",
-                "Fé, crenças e autossugestão",
-                "Conhecimento especializado",
-                "Imaginação e geração de possibilidades",
-                "Subconsciente e padrões mentais, conforme a abordagem apresentada no material",
-                "Relações entre os principais conceitos",
+                "Manual Visual da Atitude Mental Positiva",
+                "Fundamentos da Atitude Mental Positiva",
+                "Objetivos, propósito e direção",
+                "Iniciativa, persistência e ação",
+                "Obstáculos, fracassos e aprendizados",
+                "Ilustrações e diagramas",
+                "Exemplos cotidianos",
                 "Aplicações práticas",
-                "Exemplos de aplicação prática",
-                "Fichas visuais de consulta",
+                "Atlas visual de consulta",
+                "Referências rápidas",
                 "Ilustrações",
-                "Recursos para reflexão e aplicação",
+                "Recursos visuais para consultar os principais conceitos",
                 "Material organizado para consultas rápidas",
               ].map((t) => (
                 <li key={t} className="flex items-start gap-3 text-ink/90 text-sm">
@@ -571,10 +571,10 @@ function Index() {
               ))}
 
               {[
-                "Bônus #1 — Fichas Visuais dos Conceitos Essenciais",
-                "Bônus #2 — Mapa Visual dos Principais Ensinamentos",
-                "Bônus #3 — Diário de Aplicação dos Ensinamentos",
-                "Bônus #4 — Guia de Consulta Rápida do Material",
+                "Bônus #1 — Atlas Visual dos 20 Conceitos da Atitude Mental Positiva",
+                "Bônus #2 — Comparativo Visual de Atitudes",
+                "Bônus #3 — Diário de Atitude e Reflexão Pessoal",
+                "Bônus #4 — Guia de Consulta Rápida em 5 Minutos",
               ].map((t) => (
                 <li key={t} className="flex items-start gap-3 text-ink/90 text-sm">
                   <span className="shrink-0 w-6 h-6 rounded-full bg-antique-gold/15 border border-antique-gold/40 flex items-center justify-center text-antique-gold text-sm">🎁</span>
@@ -618,7 +618,7 @@ function Index() {
             </div>
           </div>
 
-          <h2 className="text-2xl md:text-4xl font-semibold mb-6">Você tem garantia vitalícia no Manual Visual de Quem Pensa Enriquece.</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold mb-6">Você tem garantia vitalícia no Manual Visual da Atitude Mental Positiva.</h2>
           <p className="text-ink/75 leading-relaxed max-w-xl mx-auto mb-3">
             Se o conteúdo não fizer sentido para o que você procura, não facilitar sua compreensão ou você simplesmente decidir que não quer continuar com o produto, poderá solicitar o reembolso conforme as condições da oferta.
           </p>
@@ -650,11 +650,11 @@ function Index() {
               i: "📱",
               t: "Acesse os materiais",
               items: [
-                "Manual Visual de Quem Pensa Enriquece",
-                "Bônus #1 — Fichas Visuais dos Conceitos Essenciais",
-                "Bônus #2 — Mapa Visual dos Principais Ensinamentos",
-                "Bônus #3 — Diário de Aplicação dos Ensinamentos",
-                "Bônus #4 — Guia de Consulta Rápida do Material",
+                "Manual Visual da Atitude Mental Positiva",
+                "Bônus #1 — Atlas Visual dos 20 Conceitos da Atitude Mental Positiva",
+                "Bônus #2 — Comparativo Visual de Atitudes",
+                "Bônus #3 — Diário de Atitude e Reflexão Pessoal",
+                "Bônus #4 — Guia de Consulta Rápida em 5 Minutos",
               ],
             },
             {
@@ -703,13 +703,13 @@ function Index() {
 
         <div className="max-w-3xl mx-auto space-y-3">
           {[
-            { q: "O que é o Manual Visual de Quem Pensa Enriquece?", a: "É um material digital que organiza os principais ensinamentos e conceitos de Quem Pensa Enriquece por meio de explicações originais, ilustrações, mapas mentais, diagramas e fichas de consulta. A proposta é facilitar a compreensão, a revisão e a consulta das ideias mais importantes." },
-            { q: "O material serve para mim mesmo que eu não goste de leituras longas?", a: "Sim. O material foi pensado para apresentar os conceitos de forma visual, organizada e objetiva. Você pode consultar um tema específico, visualizar um mapa mental ou utilizar uma ficha sem precisar percorrer longos blocos de texto para encontrar a ideia desejada." },
-            { q: "Preciso ter lido o livro para usar o material?", a: "Não necessariamente. As explicações visuais ajudam você a compreender os conceitos apresentados no próprio material. Entretanto, o manual é uma seleção organizada de ensinamentos essenciais, não uma reprodução integral do livro. Quem já conhece a obra poderá utilizá-lo especialmente como referência para revisões rápidas." },
-            { q: "Posso acessar pelo celular?", a: "Sim. Por ser um material digital em PDF, você pode abri-lo em um celular compatível com a leitura de PDFs, além de computadores e tablets. A experiência visual pode variar conforme o tamanho da tela e o aplicativo utilizado." },
+            { q: "O que é o Manual Visual da Atitude Mental Positiva?", a: "É um material digital que organiza os principais ensinamentos e conceitos de Atitude Mental Positiva por meio de explicações originais, ilustrações, mapas mentais, diagramas e fichas de consulta. A proposta é facilitar a compreensão, a revisão e a consulta das ideias mais importantes." },
+            { q: "O material serve para mim mesmo que eu não goste de leituras longas?", a: "Sim. A proposta é apresentar o conteúdo de forma organizada e visual, combinando explicações diretas, diagramas, quadros comparativos e fichas de consulta. Assim, você pode estudar por partes e revisar os assuntos no seu próprio ritmo." },
+            { q: "Preciso ter lido o livro para usar o material?", a: "Não. O manual foi planejado para apresentar os conceitos de maneira organizada e acessível, sem exigir a leitura prévia do livro de referência. Se você já conhece a obra, também poderá utilizá-lo como material complementar de consulta." },
+            { q: "Posso acessar pelo celular?", a: "Sim. Por ser um material digital, você poderá acessá-lo pelo celular, tablet ou computador, utilizando um dispositivo compatível com o formato dos arquivos disponibilizados." },
             { q: "O acesso é imediato?", a: "Sim. Após a confirmação do pagamento, o acesso é liberado conforme as instruções enviadas ao comprador. Verifique seu e-mail e as orientações de acesso para localizar os materiais." },
-            { q: "O material pode ser impresso?", a: "Sim. O PDF foi planejado em formato A4, adequado para impressão. Você pode imprimir as páginas que desejar, utilizando uma impressora e papel compatíveis. A qualidade final dependerá das configurações de impressão." },
-            { q: "Os 4 bônus já estão incluídos?", a: "Sim. No Plano Completo, os quatro bônus estão incluídos na oferta: Fichas Visuais dos Conceitos Essenciais, Mapa Visual dos Principais Ensinamentos, Diário de Aplicação dos Ensinamentos e Guia de Consulta Rápida do Material." },
+            { q: "O material pode ser impresso?", a: "Sim, desde que o arquivo disponibilizado permita impressão. Você poderá imprimir as páginas que considerar úteis para estudo e consulta pessoal, respeitando as condições de uso do material." },
+            { q: "Os 4 bônus já estão incluídos?", a: "Sim. No Plano Completo, os quatro bônus estão incluídos na oferta: Atlas Visual dos 20 Conceitos da Atitude Mental Positiva, Comparativo Visual de Atitudes, Diário de Atitude e Reflexão Pessoal e Guia de Consulta Rápida em 5 Minutos." },
             { q: "O acesso possui mensalidade?", a: "Não. A oferta apresenta pagamento único, conforme o plano escolhido. Não há mensalidade prevista na estrutura desta oferta." },
             { q: "Posso voltar ao material sempre que quiser?", a: "Sim. A proposta é que você utilize o material como referência para consultar e revisar os conceitos sempre que precisar, respeitando as condições de acesso disponibilizadas após a compra." },
             { q: "Como funciona a garantia?", a: "A oferta informa garantia vitalícia. Se o conteúdo não fizer sentido para o que você procura, não facilitar sua compreensão ou você decidir que não quer continuar com o produto, poderá solicitar o reembolso conforme as condições da oferta. Consulte as condições apresentadas no momento da compra para saber como realizar a solicitação." },
@@ -725,7 +725,7 @@ function Index() {
         <GoldOrnament />
 
         <h2 className="text-3xl md:text-4xl font-semibold max-w-3xl mx-auto leading-tight mb-8">
-          Tenha uma experiência visual, simples e organizada para compreender, revisar e aplicar os principais ensinamentos de Quem Pensa Enriquece.
+          Tenha uma experiência visual, simples e organizada para compreender, revisar e aplicar os principais ensinamentos de Atitude Mental Positiva.
         </h2>
 
         <CTAButton onClick={scrollToOffer}>QUERO ACESSAR AGORA</CTAButton>
@@ -733,7 +733,7 @@ function Index() {
         <div className="mt-16 pt-8 border-t border-antique-gold/15 max-w-3xl mx-auto space-y-4 text-xs md:text-[13px] text-ink/45 leading-relaxed text-center">
           <p className="text-center text-ink/55 tracking-wider">Copyright © 2026 | Todos os direitos reservados.</p>
           <p>Este site não é afiliado ao Facebook™, Instagram™, Google™ ou qualquer outra plataforma mencionada.</p>
-          <p>O <strong>Manual Visual de Quem Pensa Enriquece</strong> é um material digital independente, criado para fins educacionais e de organização de conteúdo. O material apresenta e organiza ideias relacionadas ao tema de conceitos de forma visual e simplificada.</p>
+          <p>O <strong>Manual Visual da Atitude Mental Positiva</strong> é um material digital independente, criado para fins educacionais e de organização de conteúdo. O material apresenta e organiza conceitos relacionados à Atitude Mental Positiva de forma visual e simplificada.</p>
           <p>A reprodução não autorizada desta publicação, no todo ou em parte, por quaisquer meios, constitui violação dos direitos autorais, sujeitando os infratores às sanções previstas na legislação aplicável.</p>
         </div>
       </Section>
