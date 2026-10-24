@@ -552,18 +552,6 @@ function Index() {
             <ul className="space-y-3 mb-6">
               {[
                 "Manual Visual da Atitude Mental Positiva",
-                "Fundamentos da Atitude Mental Positiva",
-                "Objetivos, propósito e direção",
-                "Iniciativa, persistência e ação",
-                "Obstáculos, fracassos e aprendizados",
-                "Ilustrações e diagramas",
-                "Exemplos cotidianos",
-                "Aplicações práticas",
-                "Atlas visual de consulta",
-                "Referências rápidas",
-                "Ilustrações",
-                "Recursos visuais para consultar os principais conceitos",
-                "Material organizado para consultas rápidas",
               ].map((t) => (
                 <li key={t} className="flex items-start gap-3 text-ink/90 text-sm">
                   <CheckIcon /><span>{t}</span>
