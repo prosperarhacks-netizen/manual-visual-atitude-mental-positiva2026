@@ -266,7 +266,7 @@ function Index() {
           </h1>
 
           <p className="text-ink/80 text-base md:text-lg leading-relaxed mb-8">
-            Tudo organizado em uma experiência simples, visual e prática para você compreender os conceitos, refletir sobre suas atitudes e consultar as principais ideias sempre que quiser.
+            Tudo foi organizado em uma experiência simples, visual e prática para você compreender os conceitos, refletir sobre suas atitudes e consultar as principais ideias sempre que quiser.
           </p>
 
           <div className="max-w-xl mx-auto mb-8">
