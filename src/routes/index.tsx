@@ -262,11 +262,11 @@ function Index() {
       <Section className="pt-16 md:pt-24">
         <div className="max-w-3xl mx-auto text-center fade-up">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-ink">
-            Entenda e visualize os principais conceitos do livro Atitude Mental Positiva.
+            Entenda e visualize os principais conceitos de Atitude Mental Positiva.
           </h1>
 
           <p className="text-ink/80 text-base md:text-lg leading-relaxed mb-8">
-            Tudo foi organizado em uma experiência simples, visual e prática para você compreender os conceitos, refletir sobre suas atitudes e consultar as principais ideias sempre que quiser.
+            Conheça os principais ensinamentos da obra em um material visual e organizado, desenvolvido para facilitar a compreensão das ideias, estimular a reflexão sobre suas atitudes e ajudar você a consultar os conceitos sempre que precisar.
           </p>
 
           <div className="max-w-xl mx-auto mb-8">
@@ -283,7 +283,7 @@ function Index() {
           </div>
 
           <p className="text-ink/80 text-base md:text-lg leading-relaxed mb-8">
-            Você encontra os principais conceitos da obra reunidos em um material organizado, com explicações diretas, exemplos cotidianos, ilustrações, diagramas, comparações visuais e ferramentas de consulta.
+            Encontre os principais conceitos da obra reunidos em um só lugar, com explicações diretas, exemplos cotidianos, ilustrações, diagramas, comparações visuais e ferramentas de consulta para revisar os ensinamentos de forma simples e prática.
           </p>
 
           <div>
