@@ -471,7 +471,7 @@ function Index() {
                 <h3 className="text-lg font-semibold mb-2 text-ink">{b.t}</h3>
                 <p className="text-sm text-ink/65 leading-relaxed mb-4">{b.d}</p>
                 <div className="mt-auto inline-flex items-center gap-2 self-start px-3 py-1.5 rounded-full bg-[#16A34A]/10 border border-[#16A34A]/35 text-xs">
-                  <span className="text-ink/60">Valor: <s>R$29</s></span><span className="text-[#16A34A] font-bold">GRÁTIS</span>
+                  <span className="text-ink/60">Valor: <s>R$27</s></span><span className="text-[#16A34A] font-bold">GRÁTIS</span>
                 </div>
               </div>
             </div>
