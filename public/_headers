@@ -1,0 +1,7 @@
+# Cache versioned static assets for repeat visits.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Revalidate HTML so deployments become visible immediately.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
